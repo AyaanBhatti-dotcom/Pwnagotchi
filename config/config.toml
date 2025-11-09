@@ -1,0 +1,25 @@
+main.name = "jungl3master"
+main.lang = "en"
+
+# Only allow your own Wi-Fi (SSID + BSSID)
+main.whitelist = [
+  "YourWiFiName",
+  "BSSID"
+]
+
+# Fully passive — no active attacks or association
+personality.deauth = false
+personality.advertise = false
+personality.associate = false
+
+# Disable saving handshakes / grid
+main.plugins.handshakes.enabled = false
+main.plugins.grid.enabled = false
+main.plugins.grid.report = false
+
+# Optional web UI
+ui.web.enabled = true
+ui.web.address = "0.0.0.0"
+ui.web.port = 8080
+ui.web.username = "jungl3master"
+ui.web.password = "tick"
